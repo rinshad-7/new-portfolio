@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #222831;
+    font-family: 'poppins', 'sans-serif';
+    scroll-behavior: smooth;
+
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    /* background-color: bisque; */
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo:hover {
+    color: aqua;
+
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 30px;
+    transition: 0.8s ease-in-out;
+    text-shadow: 1px 0px #00BCD4;
+    -webkit-text-stroke: 1px #000000;
+}
+
+ul {
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    margin-left: 35px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+}
+
+.home-info {
+    line-height: 40px;
+    width: 50%;
+
+}
+
+.name {
+
+    font-weight: 1000;
+    font-size: 36px;
+    text-shadow: 1px 0px #00BCD4;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.home-info h2 {
+    font-weight: bold;
+
+
+}
+
+.photo {
+
+   width: 100%;
+    height: 50%;
+    border-radius: 149px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    background-size: cover; 
+}
+
+.myimg{
+    width: 40%;
+   
+    
+}
+
+.about-me {
+    height: 100vh;
+    width: auto;
+    background-color:#222831;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.aboutme2 {
+    background: transparent;
+    border: 1px solid cyan;
+    width: 150px;
+    height: 59px;
+    position: relative;
+    top: 23px;
+    color: white;
+    font-weight: 900;
+    transition: 0.8s ease-in-out;
+    border-radius: 10px;
+}
+
+.aboutme2:hover {
+    background-color: cyan;
+    border: 3px solid white;
+
+}
+
+
+
+
+
+.web {
+    color: cyan;
+}
+
+.img2 {
+    width: 46px;
+    margin-top: 15px;
+    left: 51px;
+}
+.abouttxt{
+    height: 50vh;
+    /* background-color: blue; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    line-height: 21px;
+    padding: 40px;
+    justify-content: space-evenly;
+    color: white;
+    
+    
+}
+.pic{
+    height: 42vh;
+    /* background-color: rgb(98, 255, 0); */
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(doodle\ items.png);
+   
+    
+
+}
+.me{
+ color: cyan;
+}
+.projects{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #1f242d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.project-content{
+    width: 80%;
+    height: 80vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+
+.project-content h1{
+    color: white;
+}
+.project-content span{
+    color: cyan;
+}
+.work{
+    height: 63vh;
+    width: 90%;
+    /* background-color: blue; */
+    padding: 30px;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 30px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+
+}
+.ss{
+    background-color: #393e4650;;
+    border-radius: 10px;
+    border: 1px solid cyan;
+   
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color:#222831;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#message{
+  width: 90%;
+    height: 40vh;
+    /* background-color: aqua; */
+    padding-top: 20px;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color:  #393e4650;
+    position: relative;
+    top: 10px;
+   
+
+}
+.user-email{
+    width: 100%;
+    height: 40vh;
+    /* background-color: rgb(43, 0, 255); */
+    display: flex;
+  
+
+
+}
+.yourname{
+   width: 50%;
+    height: 40vh;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    line-height: 40px;
+}
+.youremail{
+    width: 50%;
+    height: 40vh;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    line-height: 40px;
+}
+.yourname input{
+    width: 80%;
+    height: 10%;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #393e4650;
+    border: 2px ;
+    color: rgb(255, 255, 255);
+}
+.yourname h5{
+    color: white;
+}
+.youremail input{
+     width: 80%;
+    height: 10%;
+    border-radius: 8px;
+    padding: 10px;
+     background-color: #393e4650;
+    border: 2px ;
+}
+.youremail h5{
+    color: white;
+}
+.messeg input{
+    width: 90%;
+    height: 60%;
+    background-color: #393e4650;
+    border-radius: 10px;
+    border: 2px ;
+}
+.messeg h5{
+    color: white;
+    position: relative;
+    top: 5px;
+}
+.messeg button{
+    width: 25%;
+    height: 32px;
+    background-color: cyan;
+    border-radius: 14px;
+    border: 2px;
+    position: relative;
+    top: 10px;
+}
+::placeholder{
+    color: white;
+
+}
+.social{
+    width: 90%;
+    height: 100vh;
+   
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+}
+.socialtxt{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+}
+.socialtxt h1{
+    font-weight: 900;
+    font-size: 47px;
+    color: aliceblue;
+}
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socialmedia h5{
+    color: white;
+}
+
+.portfolio{
+     background-color: #393e4650;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    background-image: url(portfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+   
+}
+.portfolio :hover{
+    transform: scale(1.2);
+}
+.amazon{
+     background-color: #393e4650;;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    background-image: url(amazon.png);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.login{
+     background-color: #393e4650;;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    background-image: url(login\ page.png);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.h3{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    font-weight: 900;
+    background-color:#222831 ;
+    width: 100%;
+      border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+    padding-left: 30%;
+}
+.h2-amazon{
+ color: rgb(255, 255, 255);
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    font-weight: 900;
+    background-color:#222831  ;
+    width: 100%;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+    padding-left: 8%;
+    font-size: 18PX;
+}
+.pic-img{
+    WIDTH: 278PX;
+    position: relative;
+    top: 100px;
+}
+
+
+   
+  /* tablet*/
+
+ @media  (max-width: 768px) {
+
+    .messeg button{
+    width: 30%;
+    height: 32px;
+    background-color: cyan;
+    border-radius: 14px;
+    border: 2px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.abouttxt h1{
+    color: white;
+    position: relative;
+    bottom: 14px;
+   
+   
+}
+ .project-content{
+    width: 100%;
+ }
+ .work{
+    width: 100%;
+ }
+ .abouttxt{
+     
+     width: 53%;
+ }
+ .abouttxt h5{
+    overflow: scroll;
+ }
+ .socialtxt h1{
+    font-weight: 600;
+    font-size: 39px;
+ }
+ .socialmedia h5{
+    color: white;
+    font-weight: 200;
+    font-size: xx-small;
+ }
+ #message{
+    height: 30vh;
+ }
+
+}
+
+
+
+
+
+
+
+@media  (max-width: 426px){ 
+
+ 
+    .nav ul{
+        display: none;
+    }
+
+    .conteiner{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    display: flex
+;
+    flex-direction: column;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+       width: 100%;
+    gap: 25px;
+}
+
+.home-info{
+    width: min-content;
+    position: relative;
+        bottom: 50px;
+}
+
+
+
+
+
+
+
+.myimg{
+    width: 80%;
+}
+.about-me{
+    flex-direction: column;
+    
+        height: 75vh;
+}
+.pic-img{
+    top: 23px;
+}
+.abouttxt{
+  
+        width: 100%;
+        /* background: bisque; */
+        height: 100vh;
+}
+
+.pic{
+    width: 100%;
+}
+.projects{
+    display: flex
+;
+    align-items: flex-start;
+    height: 120vh;
+}
+.work{
+    height: 193vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.project-content{
+    height: 100%;
+}
+.pic{
+    display: none;
+}
+.portfolio{
+    width: 85%;
+    height: 35%;
+}
+.amazon{
+    width: 85%;
+    height: 35%;
+}
+.login{
+    width: 85%;
+    height: 35%;
+}
+.ss{
+    width: 100%;
+    height: 15%;
+    display: none;
+}
+.contact{
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+       
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 40%;
+}
+.youremail input{
+    width: 100%;
+    height: 50px;
+  
+    
+}
+.youremail{
+    width: 100%;
+    height: 80vh;
+}
+.yourname{
+    width: 100%;
+}
+.yourname input{
+    width: 100%;
+    height: 50px;
+}
+.user-email{
+    display: flex
+    
+;
+    flex-direction: column;
+    justify-content: flex-end   ;
+    height: 25vh;
+    width: 100%;
+}
+#message{
+    width: 100%;
+    height: 23vh;
+}
+.socialmedia{
+    width: 100%;
+    height: 23vh;
+    position: relative;
+    bottom: 17px;
+}
+.messeg button{
+    width: 50%;
+}
+.photo{
+    align-items: end;
+}
+.nav{
+    position: sticky;
+}
+.h2-amazon{
+    font-size: medium;
+}
+
+}
+
+
+
+@media (max-width: 320px) {
+    .portfolio{
+        height: 25%;
+     }
+     .login{
+        height: 25%;
+     }
+     .amazon{
+        height: 25%;
+     }
+} 
+
+
